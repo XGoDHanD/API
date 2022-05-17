@@ -17,21 +17,19 @@
       "noImplicitReturns": true,
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
       "baseUrl": ".",
       "paths": {
         "@src/*": ["./src/*"],
-        "@test/*": ["./test/*"]
       },
       "rootDirs": [
         "./src",
-        "./test"
       ],
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true
+      
     },
     "include": [
-      "./src/**/*.ts",
-      "./test/**/*.ts"
+      "./src/**/*.ts",      
     ],
     "exclude": [
       "./node_modules/*",
